@@ -1,0 +1,7 @@
+##Short Explanation of Scraping Logic
+This project uses Python and Selenium to automate a web browser and extract laptop data from product listing pages. 
+The script opens the target website, waits for the page to load, and identifies product elements using HTML tags such as h2, h3, and elements containing the class name price.
+The extracted laptop names and prices are stored in a structured format using a Pandas DataFrame. 
+The price column is then cleaned by removing the ₹ symbol and commas, and converted into numeric format for analysis.
+Finally, the combined dataset is exported as a CSV file, and various visualizations such as bar charts, histograms, 
+box plots, and comparison charts are generated to analyze price distribution and market trends.
